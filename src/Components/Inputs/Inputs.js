@@ -23,7 +23,7 @@ export default function Inputs ()
         itemsArray.push(input.value);
         itemsArray.push(input2.value);
         if (input.value === "" || input2.value === "") {
-            alert("Please enter a value");
+            alert("Please provide a value.");
         }
         else {
             localStorage.setItem('items', JSON.stringify(itemsArray));
